@@ -189,7 +189,7 @@
             btnDontKnow.TabIndex = 3;
             btnDontKnow.Text = "Review Again";
             btnDontKnow.UseVisualStyleBackColor = false;
-            btnDontKnow.Click += prevBtn_Click;
+            btnDontKnow.Click += btnDontKnow_Click;
             // 
             // btnKnew
             // 
@@ -200,7 +200,7 @@
             btnKnew.TabIndex = 4;
             btnKnew.Text = "I Knew This";
             btnKnew.UseVisualStyleBackColor = false;
-            btnKnew.Click += nextBtn_Click;
+            btnKnew.Click += btnKnew_Click;
             // 
             // refBtn
             // 

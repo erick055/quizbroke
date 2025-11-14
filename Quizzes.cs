@@ -48,7 +48,7 @@ namespace QuizMe_
 
         private void quizzesButton_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void flashcardsButton_Click(object sender, EventArgs e)
@@ -65,6 +65,26 @@ namespace QuizMe_
             this.Hide();
 
             dashboard2.Show();
+        }
+
+        private void createQuizzButton_Click(object sender, EventArgs e)
+        {
+            CreateQuizForm createForm = new CreateQuizForm();
+            createForm.ShowDialog(); 
+
+            if (createForm.QuizCreatedSuccessfully)
+            {
+                
+                LoadAvailableQuizzes(); 
+
+                
+            }
+        }
+        private void LoadAvailableQuizzes()
+        {
+          
+            Console.WriteLine("Refreshing available quizzes list...");
+            
         }
     }
 }
