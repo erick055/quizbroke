@@ -1033,6 +1033,7 @@
             createQuizzButton.TabIndex = 30;
             createQuizzButton.Text = "Create Quiz";
             createQuizzButton.UseVisualStyleBackColor = true;
+            createQuizzButton.Click += createQuizzButton_Click;
             // 
             // Quizzes
             // 

@@ -4,7 +4,7 @@
     <Compile Update="CreateFlashcard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CreateQuizzes.cs">
+    <Compile Update="CreateQuizForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Dashboard2.cs">
@@ -16,9 +16,6 @@
     <Compile Update="LandingPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PasswordChange.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="PdfViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -26,9 +23,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Quizzes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ResetPass.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Schedule.cs">
